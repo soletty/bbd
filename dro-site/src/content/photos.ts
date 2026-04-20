@@ -110,6 +110,7 @@ photos[60] = {
 photos[65] = {
   ...photos[65],
   text: 'Brainstorming the paradigm questions and debating them for hours while training isgay on the couch in the old house. That was the real work.',
+  textAttribution: 'Solal',
 };
 
 photos[95] = {
@@ -150,6 +151,7 @@ photos[310] = {
 photos[355] = {
   ...photos[355],
   text: '"I find it so impressive that you drove all the way from the Strait of Hormuz to California with no navigation, while applying multiple layers of moisturizer and sunscreen and at the same time teaching a group of orphans how to change a tire"',
+  textAttribution: 'Emanuel',
 };
 
 photos[76] = {

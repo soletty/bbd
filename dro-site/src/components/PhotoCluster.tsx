@@ -26,21 +26,6 @@ export function PhotoCluster({ photos }: Props) {
                 }}
               />
             </div>
-            {(photo.location || photo.date || photo.caption) && (
-              <div className="mt-2 flex items-baseline gap-2 flex-wrap">
-                {photo.location && (
-                  <span className="text-xs uppercase tracking-widest text-white/40 font-sans">
-                    {photo.location}
-                  </span>
-                )}
-                {photo.date && (
-                  <span className="text-xs text-white/30 font-sans">{photo.date}</span>
-                )}
-                {photo.caption && (
-                  <p className="w-full text-sm text-white/60 font-serif italic mt-1">{photo.caption}</p>
-                )}
-              </div>
-            )}
           </FadeIn>
         ))}
       </div>

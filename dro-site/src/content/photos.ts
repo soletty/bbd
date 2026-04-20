@@ -44,8 +44,6 @@ function getLocation(n: number): string {
 
 // Get file extension for a given number
 function findFile(n: number): string {
-  const extensions = ['jpg', 'jpeg', 'png'];
-  // We'll just try jpg first, fall back to jpeg
   const jpegNumbers = [62, 95, 115, 186, 187];
   const ext = jpegNumbers.includes(n) ? 'jpeg' : 'jpg';
   return `${n}.${ext}`;

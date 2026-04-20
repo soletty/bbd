@@ -1,8 +1,7 @@
-import type { Photo } from '../content/memories';
 import { FadeIn } from './MemoryCard';
 
 type Props = {
-  photos: Photo[];
+  photos: { src: string }[];
 };
 
 export function PhotoCluster({ photos }: Props) {

@@ -21,7 +21,7 @@ const locationRanges: [number, string][] = [
   [73, 'West Maple Way'],
   [79, 'Buenos Aires'],
   [109, 'West Maple Way'],
-  [145, 'Le University Road Trip'],
+  [145, 'Le College Road Trip'],
   [149, 'Calafell'],
   [181, 'Barcelona'],
   [195, 'New York'],
@@ -112,7 +112,6 @@ photos[60] = {
 photos[65] = {
   ...photos[65],
   text: 'Brainstorming the paradigm questions and debating them for hours while training isgay on the couch in the old house. That was the real work.',
-  textAttribution: 'Solal',
 };
 
 photos[95] = {
@@ -148,6 +147,36 @@ photos[295] = {
 photos[310] = {
   ...photos[310],
   text: '"I\'m just a guy making some calls"',
+};
+
+photos[355] = {
+  ...photos[355],
+  text: '"I find it so impressive that you drove all the way from the Strait of Hormuz to California with no navigation, while applying multiple layers of moisturizer and sunscreen and at the same time teaching a group of orphans how to change a tire"',
+};
+
+photos[76] = {
+  ...photos[76],
+  text: '"Diablo"',
+};
+
+photos[160] = {
+  ...photos[160],
+  text: '"Mis respetos"',
+};
+
+photos[260] = {
+  ...photos[260],
+  text: '"Hay sexo?"',
+};
+
+photos[288] = {
+  ...photos[288],
+  text: '"If she fits on a scooter with me, she\'s too skinny"',
+};
+
+photos[147] = {
+  ...photos[147],
+  text: '"Ema, don\'t worry I\'ll drive safe" (proceeds to drive with his head out the window for 3 hours)',
 };
 
 // --- Highlights ---

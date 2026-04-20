@@ -159,6 +159,11 @@ photos[76] = {
   text: '"Diablo"',
 };
 
+photos[220] = {
+  ...photos[220],
+  text: '"Do you like to make more money or less money?"',
+};
+
 photos[160] = {
   ...photos[160],
   text: '"Mis respetos"',
